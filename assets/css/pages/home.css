@@ -1,0 +1,83 @@
+.home {
+    background-image: url('../../images/home/bg.jpg');
+    height: 900px;
+    background-size: cover;
+}
+
+.home section {
+    margin-top: 309px;
+}
+
+section .__wrap {
+    display: flex;
+    position: relative;
+}
+
+section .__wrap .text-section h3 {
+    font-family: BarlowCondensed;
+    color: #D0D6F9;
+    font-size: 28px;
+    font-weight: normal;
+}
+
+section .__wrap .text-section h1 {
+    font-family: Bellefair;
+    font-size: 150px;
+    font-weight: normal;
+    color: white;
+}
+
+section .__wrap .text-section p {
+    font-family: Barlow;
+    font-size: 18px;
+    color: #D0D6F9;
+    width: 444px;
+    line-height: 32px;
+}
+
+section .__wrap .cta {
+    width: 274px;
+    height: 274px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+section .__wrap .cta::before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    z-index: -3;
+}
+
+section .__wrap .cta::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background-color: white;
+    position: absolute;
+    z-index: -1;
+}
+
+section .__wrap .cta:hover::before {
+    width: 450px;
+    height: 450px;
+    transition-duration: 2s;
+    opacity: .1;
+}
+
+section .__wrap .cta p {
+    font-family: Bellefair;
+    font-size: 32px;
+    color: #0B0D17;
+}
