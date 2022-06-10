@@ -28,3 +28,120 @@ section .title b {
     opacity: 0.25;
     margin-right: 28px;
 }
+
+section .slider {
+    margin-top: 64px;
+}
+
+section .slider .item {
+    display: none;
+    align-items: center;
+}
+
+.slider .item img {
+    margin-right: 157px;
+}
+
+.slider .item .block-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.slider .item .block-text .title {
+    font-family: Bellefair;
+    font-size: 100px;
+    font-weight: normal;
+    color: white;
+    margin-bottom: 40px;
+    margin-left: 0;
+    text-align: start;
+}
+
+.slider .item .block-text .text {
+    color: #D0D6F9;
+    font-family: Barlow;
+    font-size: 18px;
+    line-height: 32px;
+    width: 444px;
+}
+
+.slider .item .block-text .line {
+    width: 444px;
+    height: 1px;
+    margin: 54px 0 28px;
+    background-color: #383B4B;
+}
+
+.slider .item .block-text .infos {
+    display: flex;
+}
+
+.slider .item .block-text .infos .info {
+    margin-right: 86px;
+}
+
+.slider .item .block-text .infos .info:last-child {
+    margin-right: 0;
+}
+
+.slider .item .block-text .infos .info p {
+    font-family: BarlowCondensed;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 12px;
+    color: #D0D6F9;
+}
+
+.slider .item .block-text .infos .info .distance, .info .days {
+    font-family: Bellefair;
+    font-size: 28px;
+    font-weight: normal;
+    color: white;
+}
+
+.slider .counters {
+    display: flex;
+    position: absolute;
+    top: -40px;
+    right: 257px;
+}
+
+.slider .counters .counter {
+    font-family: BarlowCondensed;
+    font-size: 16px;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 27px;
+    cursor: pointer;
+    position: relative;
+}
+
+.slider .counters .active::before {
+    background-color: white;
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+}
+
+
+.slider .counters .counter::after {
+    background-color: #D0D6F9;
+    content: '';
+    height: 2px;
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    display: none;
+}
+
+.slider .counters .counter:hover::after {
+    display: block;
+}
+
+.slider .counters .counter:hover {
+    color: #D0D6F9;
+}
