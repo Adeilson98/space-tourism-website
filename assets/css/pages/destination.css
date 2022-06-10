@@ -12,3 +12,19 @@ header nav a.__active::after {
     height: 3px;
     background-color: white;
 }
+
+section {
+    margin-top: 76px;
+}
+
+section .title {
+    margin-left: 165px;
+    font-family: BarlowCondensed;
+    font-size: 28px;
+    color: white;
+}
+
+section .title b {
+    opacity: 0.25;
+    margin-right: 28px;
+}
