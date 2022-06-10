@@ -41,15 +41,6 @@ header nav a {
     align-items: center;
 }
 
-header nav a.__active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 70px;
-    height: 3px;
-    background-color: white;
-}
-
 header nav a b {
     margin-right: 15px;
 }
