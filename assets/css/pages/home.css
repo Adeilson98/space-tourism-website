@@ -4,15 +4,6 @@
     background-size: cover;
 }
 
-header nav a.__active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 70px;
-    height: 3px;
-    background-color: white;
-}
-
 .home section {
     margin-top: 309px;
 }

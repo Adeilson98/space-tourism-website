@@ -4,15 +4,6 @@
     background-size: cover;
 }
 
-header nav a.__active::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    width: 95px;
-    height: 3px;
-    background-color: white;
-}
-
 section {
     margin-top: 76px;
 }
