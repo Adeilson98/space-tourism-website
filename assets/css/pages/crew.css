@@ -1,0 +1,19 @@
+.crew {
+    background-image: url('../../images/crew/bg.png');
+    height: 900px;
+}
+
+section {
+    margin-top: 76px;
+}
+
+section .title {
+    font-family: BarlowCondensed;
+    font-size: 28px;
+    color: white;
+}
+
+section .title b {
+    opacity: 0.25;
+    margin-right: 28px;
+}
